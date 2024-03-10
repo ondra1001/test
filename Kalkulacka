@@ -1,0 +1,15 @@
+class Kalkulacka:
+
+    def secti(self, a, b):
+        return a+b
+
+    def rozdil(self, a, b):
+        return a-b
+
+    def soucin(self, a, b):
+        return a*b
+
+    def podil(self, a, b):
+        if b != 0:
+            return a/b
+        return print("nulou nelze dělit")
